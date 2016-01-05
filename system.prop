@@ -32,6 +32,7 @@ ro.qualcomm.bt.hci_transport=smd
 
 # Camera
 camera2.portability.force_api=1
+persist.camera.preview.size=4
 
 # Display
 persist.hwc.mdpcomp.enable=true
