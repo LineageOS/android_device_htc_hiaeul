@@ -1,1 +1,1 @@
-add_lunch_combo cm_hiaeul-userdebug
+add_lunch_combo lineage_hiaeul-userdebug
