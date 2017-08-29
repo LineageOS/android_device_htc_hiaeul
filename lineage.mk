@@ -11,5 +11,5 @@ PRODUCT_DEVICE := hiaeul
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="htc_hiaeul" \
     PRODUCT_NAME="hiaeul_00617" \
-    BUILD_FINGERPRINT="htc/hiaeul_00617/htc_hiaeul:6.0.1/MMB29M/680768.4:user/release-keys" \
-    PRIVATE_BUILD_DESC="1.55.617.4 CL680768 release-keys"
+    BUILD_FINGERPRINT="htc/hiaeul_00617/htc_hiaeul:7.0/NRD90M/861328.1:user/release-keys"
+    PRIVATE_BUILD_DESC="2.18.617.1 8.0_g CL861328 release-keys"
