@@ -1,29 +1,29 @@
 # GPS
-lib64/hw/gps.default.so
-lib64/libgps.utils.so
-lib64/libloc_api_v02.so
-lib64/libloc_core.so
-lib64/libloc_ds_api.so
-lib64/libloc_eng.so
-lib/hw/gps.default.so
-lib/libgps.utils.so
-lib/libloc_api_v02.so
-lib/libloc_core.so
-lib/libloc_ds_api.so
-lib/libloc_eng.so
-vendor/lib64/hw/flp.default.so
+lib64/hw/gps.default.so:vendor/lib64/hw/gps.default.so
+lib64/libgps.utils.so:vendor/lib64/libgps.utils.so
+lib64/libloc_api_v02.so:vendor/lib64/libloc_api_v02.so
+lib64/libloc_core.so:vendor/lib64/libloc_core.so
+lib64/libloc_ds_api.so:vendor/lib64/libloc_ds_api.so
+lib64/libloc_eng.so:vendor/lib64/libloc_eng.so
+lib/hw/gps.default.so:vendor/lib/hw/gps.default.so
+lib/libgps.utils.so:vendor/lib/libgps.utils.so
+lib/libloc_api_v02.so:vendor/lib/libloc_api_v02.so
+lib/libloc_core.so:vendor/lib/libloc_core.so
+lib/libloc_ds_api.so:vendor/lib/libloc_ds_api.so
+lib/libloc_eng.so:vendor/lib/libloc_eng.so
+vendor/lib64/hw/flp.default.so:vendor/lib64/hw/flp.default.so
 vendor/lib64/libflp.so
 vendor/lib64/libgeofence.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
-vendor/lib/hw/flp.default.so
+vendor/lib/hw/flp.default.so:vendor/lib/hw/flp.default.so
 vendor/lib/libflp.so
 vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 
 # QMI
-bin/irsc_util
+bin/irsc_util:vendor/bin/irsc_util
 vendor/lib64/libdiag.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
@@ -58,13 +58,13 @@ vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
 # Radio
-bin/netmgrd
-bin/qmuxd
-bin/radish
-bin/rmt_storage
-bin/tftp_server
-lib64/libhtc_rilhook.so
-lib64/librilqmiservices.so
+bin/netmgrd:vendor/bin/netmgrd
+bin/qmuxd:vendor/bin/qmuxd
+bin/radish:vendor/bin/radish
+bin/rmt_storage:vendor/bin/rmt_storage
+bin/tftp_server:vendor/bin/tftp_server
+lib64/libhtc_rilhook.so:lib64/libhtc_rilhook.so
+lib64/librilqmiservices.so:vendor/lib64/librilqmiservices.so
 vendor/bin/qti
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libconfigdb.so
