@@ -5,11 +5,26 @@ lib64/libloc_api_v02.so
 lib64/libloc_core.so
 lib64/libloc_ds_api.so
 lib64/libloc_eng.so
+etc/permissions/com.qti.location.sdk.xml
+etc/permissions/com.qualcomm.location.xml
+etc/permissions/izat.xt.srv.xml
+etc/xtra_root_cert.pem
+framework/com.qti.location.sdk.jar
+framework/izat.xt.srv.jar
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
 vendor/lib64/hw/flp.default.so
+vendor/lib64/libalarmservice_jni.so
+vendor/lib64/libdataitems.so
 vendor/lib64/libflp.so
 vendor/lib64/libgeofence.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
+vendor/lib64/libloc_ext.so
+vendor/lib64/liblocationservice_glue.so
+vendor/lib64/liblocationservice.so
+vendor/lib64/liblowi_client.so
+vendor/lib64/libulp2.so
+vendor/lib64/libxtwifi_ulp_adaptor.so
 
 # QMI
 bin/irsc_util
