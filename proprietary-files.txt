@@ -67,7 +67,7 @@ bin/qmuxd:vendor/bin/qmuxd
 bin/radish:vendor/bin/radish
 bin/rmt_storage:vendor/bin/rmt_storage
 bin/tftp_server:vendor/bin/tftp_server
-lib64/libhtc_rilhook.so:lib64/libhtc_rilhook.so
+lib64/libhtc_rilhook.so:vendor/lib64/libhtc_rilhook.so
 lib64/librilqmiservices.so:vendor/lib64/librilqmiservices.so
 vendor/bin/qti
 vendor/lib64/libcneapiclient.so
